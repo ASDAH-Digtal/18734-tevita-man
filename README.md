@@ -2,13 +2,13 @@
 # 18734
 ## Create a web page using a template (Level 1 Unit Standard)
 
-Name: 
+Name: tevitaManu
 
-Date: 
+Date: 10_05_21
 
-Homeroom: 
+Homeroom: 10vv
 
-Teacher: 
+Teacher: MR Malaitai
 
 # Instructions:
 
