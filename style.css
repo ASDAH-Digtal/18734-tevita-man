@@ -2,10 +2,13 @@
 Name: 
 Date: 
 */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Playfair+Display:ital,wght@1,500&display=swap');
 
 :root{
-    --main-bg-colour: #05445e;
-    --sec-bg-colour: #189ab4;
+    --main-bg-colour: #00FFFF;
+    --sec-bg-colour: #d4f1f4;
     --main-colour: #d4f1f4;
     --sec-colour: #75e6da;
 }
@@ -15,21 +18,33 @@ Date:
     grid-template-columns:1fr 2fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "header header header"
-    "side1 section1 section1"
-    "section2 videoSection side2"
-    "footer footer footer";
+   "header header header"
+   "side1 section1 section1"
+   "section2 videoSection side2"
+   "references references references"
+   "footer footer footer";
+   grid-gap: 5px;
+   background-color: #000000
+  
 }
 
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
-}
+
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    border-style: double;
+    border-color: #FFE34C;
 }
+
+.header h3{ /*DO NOT REMOVE*/  
+ font-family: 'Playfair Display', serif;
+}
+
+
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
@@ -39,28 +54,69 @@ Date:
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
-    background-color: var(--main-colour);
+    background-color: #990000;
+    text-align: center;
+    padding-top: 5px;
+    border-style: groove;
+    border-color: #004000;
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
-    background-color: var(--main-colour);
+    background-color: #004000 ;
+    text-align: center;
+    padding-top: 5px;
+    border-style: groove;
+    border-color: #990000;
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    background-color: #990000;
+    font-family: 'Courgette', cursive;
+    color:#ffffff;
+    border-style: groove;
+    border-color: #004000;
 }
+
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    background-color:#004000;
+    font-family: 'Courgette', cursive;
+    text-align: left;
+    color: #FFDF32;
+    border-style: groove;
+    border-color: #990000;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
-    grid-area: videoSection;
+   grid-area: videoSection;
+   background-color: #004000;
+   text-align: center;
+   padding-top: 5px;
+   border-style: groove;
+   border-color: #990000;
+}
+
+.references { /*DO NOT REMOVE*/
+  grid-area: references;
+  background-color: #990000;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  border-style: groove;
+  border-color: #004000;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
-    background-color: var(--main-bg-colour);
+    background-color: #000000;
     color: var(--main-colour);
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    border-style: ridge;
+    border-color: #FFDF32;
+
 }

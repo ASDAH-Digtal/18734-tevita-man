@@ -15,15 +15,15 @@ Teacher: MR Malaitai
 ## Complete the following:
 1. What is the purpose of the web page?
 
-*INSERT ANSWER HERE*
+*To inform others of Bruno Mars*
 
 2. Who is the target audience of the web page?
 
-*INSERT ANSWER HERE*
+*No one specific*
 
 3. What resources (e.g. images, videos etc) will you need to create your web page? 
 
-*INSERT ANSWER HERE*
+*unsplash, w3bschool, wikapidea, ect*
 
 4. Create a conceptual design of the web page and upload it to your repository.
 
