@@ -77,12 +77,13 @@ Date:
     color:#ffffff;
     border-style: groove;
     border-color: #004000;
+    font-size: 17px;
 }
 
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
-    background-color:#004000;
+    background-color: #004000;
     font-family: 'Courgette', cursive;
     text-align: left;
     color: #FFDF32;
