@@ -78,6 +78,7 @@ Date:
     border-style: groove;
     border-color: #004000;
     font-size: 17px;
+    padding-left: 5px;
 }
 
 
@@ -89,6 +90,7 @@ Date:
     color: #FFDF32;
     border-style: groove;
     border-color: #990000;
+    padding-left: 5px;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
