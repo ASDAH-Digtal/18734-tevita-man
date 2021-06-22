@@ -28,98 +28,101 @@ Date:
   
 }
 
+.header h3{
+font-family: 'Playfair Display', serif;
+}
 
 
 .header{ /*DO NOT REMOVE*/
-    grid-area: header;
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Playfair Display SC', serif;
-    border-style: double;
-    border-color: #FFE34C;
+ grid-area: header;
+ background-color: #000000;
+ color: #ffffff;
+ text-align: center;
+ font-family: 'Playfair Display SC', serif;
+ border-style: double;
+ border-color: #FFE34C;
 }
-
-.header h3{ /*DO NOT REMOVE*/  
- font-family: 'Playfair Display', serif;
-}
-
 
 
 .main{ /*DO NOT REMOVE*/
-    grid-area: main;
-    background-color: var(--sec-bg-colour);
-    color: var(--main-colour);
+ grid-area: main;
+ background-color: var(--sec-bg-colour);
+ color: var(--main-colour);
 }
+
 
 .side1{ /*DO NOT REMOVE*/
-    grid-area: side1;
-    background-color: #990000;
-    text-align: center;
-    padding-top: 5px;
-    border-style: groove;
-    border-color: #004000;
+ grid-area: side1;
+ background-color: #990000;
+ text-align: center;
+ padding-top: 5px;
+ border-style: groove;
+ border-color: #004000;
 }
+
 
 .side2{ /*DO NOT REMOVE*/
-    grid-area: side2;
-    background-color: #004000 ;
-    text-align: center;
-    padding-top: 5px;
-    border-style: groove;
-    border-color: #990000;
+ grid-area: side2;
+ background-color: #004000 ;
+ text-align: center;
+ padding-top: 5px;
+ border-style: groove;
+ border-color: #990000;
 }
 
+/*nice*/
 .section1{ /*DO NOT REMOVE*/
-    grid-area: section1;
-    background-color: #990000;
-    font-family: 'Courgette', cursive;
-    color:#ffffff;
-    border-style: groove;
-    border-color: #004000;
-    font-size: 17px;
-    padding-left: 5px;
+ grid-area: section1;
+ background-color: #990000;
+ font-family: 'Courgette', cursive;
+ color:#ffffff;  
+ border-style: groove;
+ border-color: #004000;
+ font-size: 17px;
+ padding-left: 5px;
 }
 
 
 .section2{ /*DO NOT REMOVE*/
-    grid-area: section2;
-    background-color: #004000;
-    font-family: 'Courgette', cursive;
-    text-align: left;
-    color: #FFDF32;
-    border-style: groove;
-    border-color: #990000;
-    padding-left: 5px;
+ grid-area: section2;
+ background-color: #004000;
+ font-family: 'Courgette', cursive;
+ text-align: left;
+ color: #FFDF32;
+ border-style: groove;
+ border-color: #990000;
+ padding-left: 5px;
 }
+
 
 .videoSection{ /*DO NOT REMOVE*/
-   grid-area: videoSection;
-   background-color: #004000;
-   text-align: center;
-   padding-top: 33px;
-   border-style: groove;
-   border-color: #990000;
+ grid-area: videoSection;
+ background-color: #004000;
+ text-align: center;
+ padding-top: 33px;
+ border-style: groove;
+ border-color: #990000;
 }
+
 
 .references { /*DO NOT REMOVE*/
-  grid-area: references;
-  background-color: #990000;
-  font-family: 'Courgette', cursive;
-  text-align: center;
-  border-style: groove;
-  border-color: #004000;
-  padding-top: 10px;
-  padding-bottom: 10px;
+ grid-area: references;
+ background-color: #990000;
+ font-family: 'Courgette', cursive;
+ text-align: center;
+ border-style: groove;
+ border-color: #004000;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
 
-.footer{ /*DO NOT REMOVE*/
-    grid-area: footer;
-    background-color: #000000;
-    color: var(--main-colour);
-    font-family: 'Courgette', cursive;
-    text-align: center;
-    border-style: ridge;
-    border-color: #FFDF32;
 
+.footer{ /*DO NOT REMOVE*/
+  grid-area: footer;
+  background-color: #000000;
+  color: var(--main-colour);
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  border-style: ridge;
+  border-color: #FFDF32;
 }
