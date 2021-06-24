@@ -70,7 +70,7 @@ font-family: 'Playfair Display', serif;
  border-color: #990000;
 }
 
-/*nice*/
+
 .section1{ /*DO NOT REMOVE*/
  grid-area: section1;
  background-color: #990000;
@@ -79,9 +79,13 @@ font-family: 'Playfair Display', serif;
  border-style: groove;
  border-color: #004000;
  font-size: 17px;
- padding-left: 5px;
+ padding-left: 30px;
+ padding-right: 30px;
 }
 
+.section2 h2{
+text-align:center;
+}
 
 .section2{ /*DO NOT REMOVE*/
  grid-area: section2;
@@ -91,7 +95,8 @@ font-family: 'Playfair Display', serif;
  color: #FFDF32;
  border-style: groove;
  border-color: #990000;
- padding-left: 5px;
+ padding-left: 15px;
+ 
 }
 
 
