@@ -84,7 +84,7 @@ font-family: 'Playfair Display', serif;
 }
 
 .section2 h2{
-text-aling:center;
+  text-align:center;
 }
 
 .section2{ /*DO NOT REMOVE*/
@@ -95,8 +95,12 @@ text-aling:center;
  color: #FFDF32;
  border-style: groove;
  border-color: #990000;
- padding-left: 15px;
+ padding-left: 30px;
  
+}
+
+ul {
+  list-style-type: none;
 }
 
 
@@ -120,6 +124,11 @@ text-aling:center;
  padding-top: 10px;
  padding-bottom: 10px;
 }
+
+.references a{
+color:#FFDF32;
+}
+
 
 
 .footer{ /*DO NOT REMOVE*/
